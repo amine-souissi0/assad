@@ -1,0 +1,105 @@
+.admin-dashboard {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
+
+.admin-dashboard h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.admin-dashboard section {
+  margin-bottom: 40px;
+}
+
+.admin-dashboard h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.orders-table th,
+.orders-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.orders-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.orders-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.orders-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+.add-order,
+.edit-order {
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-order h3,
+.edit-order h3 {
+  margin-bottom: 15px;
+}
+
+.add-order input,
+.edit-order input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: calc(100% - 22px);
+  max-width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.add-btn,
+.update-btn,
+.edit-btn,
+.delete-btn {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-btn {
+  background-color: #28a745;
+}
+
+.update-btn {
+  background-color: #007bff;
+}
+
+.edit-btn {
+  background-color: #ffc107;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.add-btn:hover,
+.update-btn:hover,
+.edit-btn:hover,
+.delete-btn:hover {
+  opacity: 0.9;
+}

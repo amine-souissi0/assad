@@ -1,0 +1,15 @@
+.admin-login {
+  text-align: center;
+  padding: 50px;
+}
+
+.admin-login input {
+  margin: 10px 0;
+  padding: 10px;
+  width: 200px;
+}
+
+.admin-login button {
+  padding: 10px 20px;
+  cursor: pointer;
+}

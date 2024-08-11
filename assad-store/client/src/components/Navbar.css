@@ -1,0 +1,85 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #002855; /* Change this to match your desired color */
+    padding: 10px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .search-bar svg {
+    margin-left: 5px;
+    color: #002855; /* Change this to match your desired color */
+  }
+  
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-icons a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px; /* Adjust the size as needed */
+  }
+  
+  .admin-button {
+    display: inline-block;
+  }
+  
+  .admin-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
