@@ -1,0 +1,44 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                // Clone du dépôt Git
+                git branch: 'main', url: 'https://github.com/gocho1200/assad'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                // Commande pour compiler votre projet ou exécuter un script de build
+                echo 'Exécution du script de build...'
+                // Remplacez la commande ci-dessous par celle qui convient à votre projet
+                sh './build.sh' 
+            }
+        }
+
+        stage('Test') {
+            steps {
+                // Commande pour exécuter les tests
+                echo 'Exécution des tests...'
+                // Remplacez cette commande par celle qui lance vos tests
+                sh './run-tests.sh'
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                // Commande pour déployer le projet
+                echo 'Déploiement en cours...'
+                // Ajoutez ici votre commande de déploiement
+            }
+        }
+    }
+
+    post {
+        always {
+            echo 'Pipeline terminé, nettoyage...'
+        }
+    }
+}
